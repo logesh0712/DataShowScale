@@ -25,6 +25,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app requires access to take photo for profile pic.",
+          "photosPermission": "The app requires access to choose photo for profile pic"
+        }
+      ]
+    ]
   }
 }
