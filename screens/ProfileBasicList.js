@@ -48,10 +48,11 @@ function ProfileBasicList(){
 
     return (
         <View>
+            
             <ImagePicker>
 
             </ImagePicker>
-
+            
             <FlatList
                 data={profileList}
                 renderItem={renderProfileItem}
